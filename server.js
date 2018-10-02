@@ -20,11 +20,11 @@ app.use((request, response, next) => {
 
 });
 
-app.use((request, response, next) => {
-
-  response.render(`maintenance.hbs`)
-
-});
+// app.use((request, response, next) => {
+//
+//   response.render(`maintenance.hbs`)
+//
+// });
 
 app.use(express.static(`${__dirname}/public`));
 
